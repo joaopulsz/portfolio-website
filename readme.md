@@ -11,3 +11,7 @@
 * The contact session includes a contact form and links to my LinkedIn and GiHub profiles.
 
 * Footer at the bottom of the page.
+
+See wireframe below:
+
+![Wireframe](./wireframe.png)
