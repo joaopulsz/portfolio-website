@@ -5,7 +5,7 @@
 }
 
 header {
-    background-color: rgb(162, 19, 19);
+    background-color: rgb(145, 17, 17);
     height: 50px;
     position: sticky;
     top: 0;
@@ -44,7 +44,7 @@ h1 {
 }
 
 #subtitle {
-    color: rgb(162, 19, 19);
+    color: crimson;
     font-size: 3em;
     font-style: italic;
 }
@@ -54,4 +54,53 @@ h1 {
     color: rgb(235, 234, 234);
     width: 70%;
     padding-top: 100px;
+}
+
+#projects {
+    text-align: center;
+    height: 100vh;
+    background-color: cornflowerblue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: .5fr 1fr 1fr .5fr;
+    gap: 30px;
+}
+
+#projects-title {
+    grid-column: 1/4;
+    font-size: 1.8em;
+    margin-top: 50px;
+}
+
+.project-card {
+    margin: auto;
+    font-size: 1.1em;
+    width: 300px;
+    background-color: #333;
+}
+
+.project-card a {
+    color: rgb(235, 234, 234);
+    text-decoration: none;
+}
+
+.project-card p {
+    padding: 15px;
+}
+
+.project-img {
+    width: 300px;
+}
+
+#showmore {
+    grid-column: 1/4;
+    margin-top: 30px;
+}
+
+#showmore a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: rgb(235, 234, 234);
+    background-color: #333;
+    padding: 10px;
 }
