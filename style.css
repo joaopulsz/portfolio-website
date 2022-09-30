@@ -27,6 +27,10 @@ header {
     text-decoration: none;
 }
 
+.nav-link:hover {
+    color: grey;
+}
+
 #about-section {
 	text-align: center;
     display: flex;
@@ -79,6 +83,10 @@ h1 {
     background-color: #333;
 }
 
+.project-card:hover {
+    background-color: grey;
+}
+
 .project-card a {
     color: rgb(235, 234, 234);
     text-decoration: none;
@@ -103,4 +111,58 @@ h1 {
     color: rgb(235, 234, 234);
     background-color: #333;
     padding: 10px;
+}
+
+#showmore a:hover {
+    background-color: grey;
+}
+
+#contact {
+    background-color: #333;
+    color: rgb(235, 234, 234);
+    text-align: center;
+    border-bottom: 5px solid rgb(145, 17, 17);
+}
+
+#contact-title {
+    font-size: 2em;;
+    padding: 30px;
+}
+
+.contact-link {
+    color: crimson;
+    font-size: 1.8em;
+    text-decoration: none;
+    padding: 30px;
+}
+
+.contact-link:hover {
+    color: tomato;
+}
+
+#form-container {
+    padding: 30px;
+}
+
+#form-container textarea {
+    margin-top: 30px;
+}
+
+#form-container button {
+    padding: 6px;
+    background-color: crimson;
+    border: none;
+}
+
+#form-container button:hover {
+    background-color: tomato;
+    cursor: pointer;
+}
+
+footer {
+    color: rgb(235, 234, 234);
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
 }
